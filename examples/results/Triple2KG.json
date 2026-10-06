@@ -1,0 +1,316 @@
+{
+    "triple_list": [
+        {
+            "head": "3C制造业",
+            "head_type": "Place",
+            "relation": "成为",
+            "relation_type": "Located",
+            "tail": "技术密集度最高、产业链最复杂、质量管理要求最严苛的领域之一",
+            "tail_type": "Property"
+        },
+        {
+            "head": "3C产品",
+            "head_type": "Place",
+            "relation": "具有",
+            "relation_type": "Property",
+            "tail": "产品迭代周期短、功能高度集成、零部件精密度高、供应链复杂等特点",
+            "tail_type": "Property"
+        },
+        {
+            "head": "3C制造企业",
+            "head_type": "Place",
+            "relation": "必须在",
+            "relation_type": "Action",
+            "tail": "系统化、结构化、可追溯的管理体系",
+            "tail_type": "Property"
+        },
+        {
+            "head": "研发部门",
+            "head_type": "Person",
+            "relation": "根据",
+            "relation_type": "Interpersonal",
+            "tail": "市场需求、客户规格书以及竞争分析",
+            "tail_type": "Place"
+        },
+        {
+            "head": "产品经理",
+            "head_type": "Person",
+            "relation": "定义",
+            "relation_type": "Action",
+            "tail": "产品定位",
+            "tail_type": "Property"
+        },
+        {
+            "head": "工业设计团队",
+            "head_type": "Person",
+            "relation": "负责",
+            "relation_type": "Action",
+            "tail": "外观设计",
+            "tail_type": "Property"
+        },
+        {
+            "head": "电子工程师",
+            "head_type": "Person",
+            "relation": "协同",
+            "relation_type": "Interpersonal",
+            "tail": "结构工程师",
+            "tail_type": "Person"
+        },
+        {
+            "head": "BOM",
+            "head_type": "Property",
+            "relation": "描述",
+            "relation_type": "Action",
+            "tail": "产品由哪些零部件构成",
+            "tail_type": "Property"
+        },
+        {
+            "head": "BOM",
+            "head_type": "Property",
+            "relation": "决定了",
+            "relation_type": "Action",
+            "tail": "后续采购、制造和质量控制的基准",
+            "tail_type": "Property"
+        },
+        {
+            "head": "ECR/ECO",
+            "head_type": "Event",
+            "relation": "触发",
+            "relation_type": "Action",
+            "tail": "工程变更流程",
+            "tail_type": "Event"
+        },
+        {
+            "head": "BOM",
+            "head_type": "Property",
+            "relation": "变更",
+            "relation_type": "Action",
+            "tail": "生产线配置",
+            "tail_type": "Property"
+        },
+        {
+            "head": "生产过程",
+            "head_type": "Event",
+            "relation": "产生",
+            "relation_type": "Action",
+            "tail": "大量数据",
+            "tail_type": "Property"
+        },
+        {
+            "head": "数据",
+            "head_type": "Property",
+            "relation": "用于",
+            "relation_type": "Action",
+            "tail": "计算关键质量指标",
+            "tail_type": "Property"
+        },
+        {
+            "head": "3C制造业",
+            "head_type": "Place",
+            "relation": "对",
+            "relation_type": "Interpersonal",
+            "tail": "质量指标的要求极高",
+            "tail_type": "Property"
+        },
+        {
+            "head": "核心指标",
+            "head_type": "Property",
+            "relation": "包括",
+            "relation_type": "Action",
+            "tail": "FPY（First Pass Yield，直通率）、IFIR（In-Factory Incident Rate，不良率）、OOB（Out of Box Quality，出厂不良率）、RA（Return Analysis，返修率）、PSI（Product Satisfaction Index，产品满意度）",
+            "tail_type": "Property"
+        },
+        {
+            "head": "企业",
+            "head_type": "Place",
+            "relation": "采用",
+            "relation_type": "Action",
+            "tail": "5Why、鱼骨图、8D等方法",
+            "tail_type": "Event"
+        },
+        {
+            "head": "不良",
+            "head_type": "Event",
+            "relation": "被分类为",
+            "relation_type": "Action",
+            "tail": "功能不良、外观不良、结构不良、电性能不良等",
+            "tail_type": "Property"
+        },
+        {
+            "head": "问题",
+            "head_type": "Event",
+            "relation": "可以追溯到",
+            "relation_type": "Action",
+            "tail": "产品型号、生产线、工作站、设备编号、操作员、批次、供应商",
+            "tail_type": "Property"
+        },
+        {
+            "head": "企业",
+            "head_type": "Place",
+            "relation": "通过",
+            "relation_type": "Action",
+            "tail": "系统化的数据记录",
+            "tail_type": "Property"
+        },
+        {
+            "head": "企业",
+            "head_type": "Place",
+            "relation": "可以",
+            "relation_type": "Action",
+            "tail": "对历史问题进行统计分析",
+            "tail_type": "Property"
+        },
+        {
+            "head": "企业",
+            "head_type": "Place",
+            "relation": "识别",
+            "relation_type": "Action",
+            "tail": "高频问题、关键工序和高风险供应商",
+            "tail_type": "Property"
+        },
+        {
+            "head": "制造设备",
+            "head_type": "Place",
+            "relation": "成为",
+            "relation_type": "Located",
+            "tail": "3C工厂的重要资产",
+            "tail_type": "Property"
+        },
+        {
+            "head": "设备状态",
+            "head_type": "Property",
+            "relation": "影响",
+            "relation_type": "Action",
+            "tail": "良率",
+            "tail_type": "Property"
+        },
+        {
+            "head": "设备工程师团队",
+            "head_type": "Person",
+            "relation": "负责",
+            "relation_type": "Action",
+            "tail": "设备保养与能力提升",
+            "tail_type": "Property"
+        },
+        {
+            "head": "预测性维护系统",
+            "head_type": "Event",
+            "relation": "可以通过",
+            "relation_type": "Action",
+            "tail": "设备数据提前识别风险",
+            "tail_type": "Property"
+        },
+        {
+            "head": "预测性维护系统",
+            "head_type": "Event",
+            "relation": "减少",
+            "relation_type": "Action",
+            "tail": "突发停机",
+            "tail_type": "Property"
+        },
+        {
+            "head": "3C制造企业",
+            "head_type": "Place",
+            "relation": "部署",
+            "relation_type": "Action",
+            "tail": "MES、QMS、ERP、PLM等系统",
+            "tail_type": "Property"
+        },
+        {
+            "head": "MES",
+            "head_type": "Event",
+            "relation": "负责",
+            "relation_type": "Action",
+            "tail": "生产过程控制",
+            "tail_type": "Property"
+        },
+        {
+            "head": "QMS",
+            "head_type": "Event",
+            "relation": "负责",
+            "relation_type": "Action",
+            "tail": "质量数据管理",
+            "tail_type": "Property"
+        },
+        {
+            "head": "ERP",
+            "head_type": "Event",
+            "relation": "管理",
+            "relation_type": "Action",
+            "tail": "资源与成本",
+            "tail_type": "Property"
+        },
+        {
+            "head": "PLM",
+            "head_type": "Event",
+            "relation": "管理",
+            "relation_type": "Action",
+            "tail": "产品全生命周期数据",
+            "tail_type": "Property"
+        },
+        {
+            "head": "企业",
+            "head_type": "Place",
+            "relation": "引入",
+            "relation_type": "Action",
+            "tail": "数据中台与知识图谱技术",
+            "tail_type": "Property"
+        },
+        {
+            "head": "企业",
+            "head_type": "Place",
+            "relation": "实现",
+            "relation_type": "Action",
+            "tail": "跨系统分析",
+            "tail_type": "Property"
+        },
+        {
+            "head": "知识图谱",
+            "head_type": "Property",
+            "relation": "将",
+            "relation_type": "Action",
+            "tail": "分散在各系统中的信息进行语义级整合",
+            "tail_type": "Property"
+        },
+        {
+            "head": "知识图谱",
+            "head_type": "Property",
+            "relation": "形成",
+            "relation_type": "Action",
+            "tail": "结构化知识",
+            "tail_type": "Property"
+        },
+        {
+            "head": "AI与大模型",
+            "head_type": "Event",
+            "relation": "推动",
+            "relation_type": "Action",
+            "tail": "3C制造向智能质量、智能排产、智能决策演进",
+            "tail_type": "Property"
+        },
+        {
+            "head": "制造知识图谱",
+            "head_type": "Property",
+            "relation": "实现",
+            "relation_type": "Action",
+            "tail": "自动化问题定位、异常知识复用、智能问答",
+            "tail_type": "Property"
+        },
+        {
+            "head": "制造知识图谱",
+            "head_type": "Property",
+            "relation": "支持",
+            "relation_type": "Action",
+            "tail": "工程人员跨厂经验共享",
+            "tail_type": "Property"
+        },
+        {
+            "head": "知识图谱",
+            "head_type": "Property",
+            "relation": "成为",
+            "relation_type": "Located",
+            "tail": "3C数字工厂的底层基础设施",
+            "tail_type": "Property"
+        }
+    ]
+}

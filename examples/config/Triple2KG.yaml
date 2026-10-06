@@ -1,0 +1,28 @@
+model:
+  # vllm_serve: false
+  # Recommend using ChatGPT or DeepSeek APIs for complex Triple task.
+  category: DeepSeek # model category, chosen from ChatGPT, DeepSeek, LLaMA, Qwen, ChatGLM, MiniCPM, OneKE.
+  # model_name_or_path: gpt-4o-mini # # model name, chosen from the model list of the selected category.
+  # api_key: your_api_key # your API key for the model with API service. No need for open-source models.
+  # base_url: https://api.openai.com/v1 # # base URL for the API service. No need for open-source models.
+  base_url: https://open.bigmodel.cn/api/paas/v4/
+  api_key: "" # read from LLM_API_KEY when empty
+  model_name_or_path: GLM-4-Flash-250414
+
+extraction:
+  mode: customized # extraction mode, chosen from quick, detailed, customized. Default set to quick. See src/config.yaml for more details.
+  task: Triple  # task type, chosen from Base, NER, RE, EE. Now newly added task 'Triple'.
+  use_file: true # whether to use a file for the input text. Default set to false.
+  # text: "In Madison, New Jersey, David, an 11-year-old prototype mecha child capable of love, is given to Henry Swinton and his wife Monica."
+  # file_path: ./data/input_files/Artificial_Intelligence_Wikipedia.txt #  # path to the input file. No need if use_file is set to false.
+  file_path: ./data/input_files/1.pdf
+  constraint: [["Person", "Place", "Event", "Property"], ["Interpersonal", "Located", "Ownership", "Action"]] # Specified entity or relation types for Triple Extraction task. You can write 3 lists for subject, relation and object types. Or you can write 2 lists for entity and relation types. Or you can write 1 list for entity type only.
+  update_case: true # whether to update the case repository. Default set to false.
+  show_trajectory: false # whether to display the extracted intermediate steps
+  instruction: "Extract all triples from the input text into a JSON array named 'triple_list'. Do NOT output JSON schema, $defs, or properties definition. Output ONLY real instances found in text."
+
+construct:
+  database: neo4j
+  url: neo4j://127.0.0.1:7687
+  username: neo4j
+  password: "" # read from NEO4J_PASSWORD when empty

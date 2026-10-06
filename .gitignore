@@ -1,0 +1,13 @@
+**/__pycache__
+*.pyc
+dev
+.env
+.cache/
+.pytest_cache/
+*.db
+logs/*.log
+frontend/logs/*.log
+docs
+figs/
+data/eval
+
