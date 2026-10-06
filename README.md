@@ -93,7 +93,7 @@ GraphNexus 基于开源项目 OneKE 二次开发，构建**离线知识加工 + 
 ## 📂 项目目录结构
 
 ```
-OneKE‑Nexus
+GraphNexus
 ├── figs/                     # 图片资源logo、截图
 ├── frontend/                 # Streamlit前端
 │   ├── app.py                # 前端主入口
